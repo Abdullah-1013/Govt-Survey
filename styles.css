@@ -55,3 +55,20 @@ input[type="button"]:hover {
 textarea {
     resize: vertical;
 }
+
+/* Media queries for mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+        font-size: 14px;
+    }
+    input[type="button"] {
+        font-size: 14px;
+    }
+}
